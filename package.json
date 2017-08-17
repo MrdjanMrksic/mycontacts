@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "firebase": "*",
-    "node-js":"*"
+    "node-js":"*",
+    "bower": "*"
   }
 }
