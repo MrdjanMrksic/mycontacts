@@ -38,6 +38,7 @@
   "dependencies": {
     "firebase": "*",
     "node-js":"*",
-    "bower": "*"
+    "bower": "*",
+    "http-server": "*"
   }
 }
