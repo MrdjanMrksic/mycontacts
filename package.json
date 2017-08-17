@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "engines": {
-    "node": "*"
+    "node": "6.11.2"
   },
   "description": "A starter project for AngularJS",
   "repository": "https://github.com/angular/angular-seed",
