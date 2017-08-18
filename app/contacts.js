@@ -93,7 +93,7 @@ angular.module('myContacts.contacts', ['ngRoute', 'firebase'])
 			});
 		}
 
-		$scope.editFormSubmit = function($setTimeout){
+		$scope.editFormSubmit = function(){
 			console.log('Updating contact...')
 
 			// Get ID
@@ -126,10 +126,8 @@ angular.module('myContacts.contacts', ['ngRoute', 'firebase'])
 			// Hide Edit Form
 
 			$scope.editFormShow = false;
-			$setTimeout(function() {
-				$scope.msg = "Contact Updated";
-			}, 10);
-			
+
+			$scope.msg = "Contact Updated";
 		}
 
 		$scope.removeContact = function(contact){
