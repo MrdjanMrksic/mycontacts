@@ -126,8 +126,10 @@ angular.module('myContacts.contacts', ['ngRoute', 'firebase'])
 			// Hide Edit Form
 
 			$scope.editFormShow = false;
-
-			$scope.msg = "Contact Updated";
+			$setTimeout(function() {
+				$scope.msg = "Contact Updated";
+			}, 10);
+			
 		}
 
 		$scope.removeContact = function(contact){
