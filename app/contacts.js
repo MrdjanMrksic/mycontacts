@@ -48,16 +48,16 @@ angular.module('myContacts.contacts', ['ngRoute', 'firebase'])
 			console.log("Adding contact...");
 
 			// Assign Values
-			if($scope.name){var name = $scope.name} else {var name = null;}
-			if($scope.email){var email = $scope.email} else {var email = null;}
-			if($scope.company){var company = $scope.company} else {var company = null;}
-			if($scope.mobile_phone){var mobile_phone = $scope.mobile_phone} else {var mobile_phone = null;}
-			if($scope.home_phone){var home_phone = $scope.home_phone} else {var home_phone = null;}
-			if($scope.work_phone){var work_phone = $scope.work_phone} else {var work_phone = null;}
-			if($scope.street_address){var street_address = $scope.street_address} else {var street_address = null;}
-			if($scope.city){var city = $scope.city} else {var city = null;}
-			if($scope.state){var state = $scope.state} else {var state = null;}
-			if($scope.zipcode){var zipcode = $scope.zipcode} else {var zipcode = null;}
+			if($scope.name)				{var name = $scope.name} 						else {var name = '';}
+			if($scope.email)			{var email = $scope.email} 						else {var email = '';}
+			if($scope.company)			{var company = $scope.company} 					else {var company = '';}
+			if($scope.mobile_phone)		{var mobile_phone = $scope.mobile_phone} 		else {var mobile_phone = '';}
+			if($scope.home_phone)		{var home_phone = $scope.home_phone}			else {var home_phone = '';}
+			if($scope.work_phone)		{var work_phone = $scope.work_phone} 			else {var work_phone = '';}
+			if($scope.street_address)	{var street_address = $scope.street_address} 	else {var street_address = '';}
+			if($scope.city)				{var city = $scope.city} 						else {var city = '';}
+			if($scope.state)			{var state = $scope.state} 						else {var state = '';}
+			if($scope.zipcode)			{var zipcode = $scope.zipcode} 					else {var zipcode = '';}
 
 			// Build Object
 			$scope.contacts.$add({
