@@ -118,9 +118,10 @@ angular.module('myContacts.contacts', ['ngRoute', 'firebase'])
 
 			$scope.contacts.$save(record).then(function(ref){
 				console.log(ref.key);
+				clearFields();
 			});
 
-			clearFields();
+			
 
 			// Hide Edit Form
 
