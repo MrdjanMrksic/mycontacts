@@ -93,7 +93,7 @@ angular.module('myContacts.contacts', ['ngRoute', 'firebase'])
 			});
 		}
 
-		$scope.editFormSubmit = function(){
+		$scope.editFormSubmit = function($setTimeout){
 			console.log('Updating contact...')
 
 			// Get ID
