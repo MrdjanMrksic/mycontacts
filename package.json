@@ -38,7 +38,7 @@
   "dependencies": {
     "npm": "*",
     "firebase": "*",
-    "node-js":"*",
+    "node-js": "*",
     "bower": "*",
     "http-server": "*"
   }
